@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { subscribeToTimer, sendChatMessage, receiveChatMessages } from './api';
-import logo from './logo.svg';
+import { sendChatMessage, receiveChatMessages } from './api';
 import './App.css';
 
 class App extends Component {
